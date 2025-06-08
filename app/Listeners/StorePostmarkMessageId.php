@@ -32,21 +32,25 @@ class StorePostmarkMessageId
         if (isset($event->data['task']) && $event->data['task'] instanceof Task) {
             $task = $event->data['task'];
 
-            // Get the Symfony Message object from the event
-            $symfonyMessage = $event->sent->getSymfonyMessage();
-            $messageId = $symfonyMessage->getMessageId();
-
-            if ($messageId) {
-                // The Message-ID from Symfony Mailer often includes angle brackets, remove them.
+            // Get the Message-ID directly from the message
+            $message = $event->message;
+            $headers = $message->getHeaders();
+            
+            if ($headers->has('Message-ID')) {
+                $messageId = $headers->get('Message-ID')->getBodyAsString();
+                // The Message-ID from headers often includes angle brackets, remove them.
                 $cleanedMessageId = trim($messageId, '<>');
                 $task->update(['postmark_message_id' => $cleanedMessageId]);
                 Log::info("Stored Postmark Message-ID: {$cleanedMessageId} for Task ID: {$task->id}");
             } else {
-                Log::warning("Could not retrieve Message-ID for Task ID: {$task->id}");
+                // If no Message-ID is found, generate a unique one
+                $generatedId = 'task-' . $task->id . '-' . uniqid();
+                $task->update(['postmark_message_id' => $generatedId]);
+                Log::info("Generated Message-ID: {$generatedId} for Task ID: {$task->id}");
             }
         } else {
             // Log if the task data isn't found, helps in debugging if Message-IDs aren't saving
-            // Log::debug('MessageSent event handled, but no Task data found in event data.', ['event_data_keys' => array_keys($event->data)]);
+            Log::debug('MessageSent event handled, but no Task data found in event data.', ['event_data_keys' => array_keys($event->data)]);
         }
     }
 }

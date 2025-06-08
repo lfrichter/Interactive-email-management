@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\Models\Task;
+use Illuminate\Support\Facades\Log;
 
 class CommandParser
 {
@@ -15,33 +16,31 @@ class CommandParser
      */
     public function parse(string $body, Task $task): void
     {
+        // Usamos um array associativo de [padrão_regex => função_handler]
+        // O modificador 'i' torna a regex case-insensitive.
         $commands = [
-            '/#priority\s+(high|medium|low)/i' => fn($matches) => $task->priority = strtolower($matches[1]),
-            '/#complete/i' => fn() => $task->status = 'completed',
-            '/#due\s+(\d{4}-\d{2}-\d{2})/i' => fn($matches) => $task->due_date = $matches[1],
-            // Regex for #comment, captures everything after #comment until the end of the line or email
-            '/#comment\s+(.+)/i' => function($matches) use ($task) {
-                // Append new comment to existing description, or set if description is empty
-                $newComment = trim($matches[1]);
-                if (!empty($task->description)) {
-                    $task->description .= "\n---\nComment: " . $newComment;
-                } else {
-                    $task->description = "Comment: " . $newComment;
-                }
+            '/#(priority|prioridade)\s+(high|medium|low|alta|media|baixa)/i' => function ($matches) use ($task) {
+                // Normaliza os valores para o padrão do banco de dados
+                $priorityMap = [
+                    'alta' => 'high',
+                    'media' => 'medium',
+                    'baixa' => 'low',
+                ];
+                $normalizedPriority = strtolower($matches[2]);
+                $task->priority = $priorityMap[$normalizedPriority] ?? $normalizedPriority;
+            },
+            '/#concluir/i' => function () use ($task) {
+                $task->status = 'completed';
+            },
+            '/#due\s+(\d{4}-\d{2}-\d{2})/i' => function ($matches) use ($task) {
+                $task->due_date = $matches[1];
             },
         ];
 
-        // Normalize line endings to ensure regex works consistently
-        $normalizedBody = str_replace("\r\n", "\n", $body);
-        $lines = explode("\n", $normalizedBody);
-
-        foreach ($lines as $line) {
-            foreach ($commands as $pattern => $handler) {
-                if (preg_match($pattern, $line, $matches)) {
-                    $handler($matches);
-                    // Log which command was processed for debugging
-                    // \Illuminate\Support\Facades\Log::info("CommandParser: Processed command matching {$pattern} for task ID {$task->id}");
-                }
+        foreach ($commands as $pattern => $handler) {
+            // Usamos preg_match para encontrar a primeira ocorrência de cada comando
+            if (preg_match($pattern, $body, $matches)) {
+                $handler($matches);
             }
         }
     }

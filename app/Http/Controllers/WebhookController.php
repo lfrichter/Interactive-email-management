@@ -55,17 +55,7 @@ class WebhookController extends Controller
                 // Send confirmation email
                 Mail::to($task->from_email)->send(new TaskCreatedConfirmation($task));
 
-                // TODO: Capture and save Postmark Message-ID.
-                // Laravel's default mailer might not directly return the Message-ID in a simple way.
-                // This might require listening to MessageSent event or using Postmark SDK directly for sending
-                // if precise Message-ID capture is critical and not available through standard Mail facade.
-                // For now, we'll log that it needs to be implemented.
-                Log::info("Task ID {$task->id} created. Confirmation email sent. Message-ID capture pending.");
-                // Example if Message-ID were available (hypothetical):
-                // if (isset($sentMessage) && method_exists($sentMessage, 'getMessageId')) {
-                //     $task->postmark_message_id = $sentMessage->getMessageId();
-                //     $task->save();
-                // }
+                Log::info("Task ID {$task->id} created. Confirmation email sent.");
             }
 
             return response()->json(['message' => 'Email processed.'], 200);

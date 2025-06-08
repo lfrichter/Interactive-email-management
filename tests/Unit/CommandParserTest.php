@@ -4,6 +4,10 @@ namespace Tests\Unit;
 
 use App\Services\CommandParser;
 use App\Models\Task;
+use Tests\TestCase; // Adicione esta linha!
+
+// O Pest precisa saber que este arquivo de teste usa o ambiente do Laravel.
+uses(TestCase::class); // E adicione esta linha!
 
 // Teste para o parser de prioridade
 test('it correctly parses the priority command', function () {
