@@ -1,61 +1,130 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 📧 Conversational Email Task Manager
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![PHP Version](https://img.shields.io/badge/php-%5E8.2-777BB4?style=flat&logo=php&logoColor=white)](https://php.net)
+[![Laravel Version](https://img.shields.io/badge/laravel-%5E12.0-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com)
+[![SQLite](https://img.shields.io/badge/sqlite-3.x-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
+[![PestPHP](https://img.shields.io/badge/PestPHP-%5E3.8-F28D1A?style=flat&logo=pest&logoColor=white)](https://pestphp.com/)
+[![Postmark](https://img.shields.io/badge/Postmark-API-FFCD00?style=flat&logo=postmark&logoColor=black)](https://postmarkapp.com)
 
-## About Laravel
+This project is a submission for the **Postmark Challenge: Inbox Innovators**. The goal is to develop a web application that allows users to create and manage tasks entirely through their email clients. The application transforms email into a conversational interface, where tasks are created with an initial email and updated through replies in the same thread.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+The innovative factor is the implementation of a feedback cycle ("send and interact") rather than a unidirectional data entry ("send and forget"). Users can manage the complete lifecycle of a task without leaving their inbox, making the process more fluid and integrated into their daily workflow.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+*   **Create Tasks via Email:** Send an email to a designated address (e.g., `tasks@yourapp.com`). The subject becomes the task title, and the body becomes the description.
+*   **Interactive Confirmation Replies:** Receive an automated email reply after task creation. This email includes a unique task identifier in the subject (e.g., `Re: [TASK-123] Task Title`) and clear instructions on how to interact with the task using commands.
+*   **Update Tasks by Replying:** Update existing tasks by replying to the confirmation email. The system identifies the corresponding task and processes commands in the reply body.
+*   **Command Parser:** Interpret specific commands in the email body, such as:
+    *   `#priority <high|medium|low>`
+    *   `#complete`
+    *   `#comment <your comment text>`
+    *   `#due <YYYY-MM-DD>`
+*   **Sender Authentication:** Tasks are associated with the sender's email (`from_email`). Only the original sender can modify a task.
+*   **Web Interface:** A simple web page lists all received tasks, displaying title, description, priority, status, and creator's email.
 
-## Learning Laravel
+## 🛠️ Tech Stack
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+*   **Backend:** Laravel 12
+*   **Frontend:** Blade (with Livewire for dynamic task list)
+*   **Database:** SQLite (for development and submission simplicity)
+*   **Email Service:** Postmark (Inbound and Outbound APIs)
+*   **Local Tunnel:** Ngrok (or similar, to expose the local application to Postmark webhooks during development)
+*   **Testing:** Pest (PHP Testing Framework)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 🚀 How to Run Locally
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/your-username/your-repository-name.git
+    cd your-repository-name
+    ```
 
-## Laravel Sponsors
+2.  **Install dependencies:**
+    ```bash
+    composer install
+    ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+3.  **Set up your environment file:**
+    ```bash
+    cp .env.example .env
+    ```
 
-### Premium Partners
+4.  **Generate an application key:**
+    ```bash
+    php artisan key:generate
+    ```
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+5.  **Run database migrations:**
+    (This will also create the `database.sqlite` file if it doesn't exist)
+    ```bash
+    php artisan migrate
+    ```
 
-## Contributing
+6.  **Configure `.env` variables:**
+    Update your `.env` file with your Postmark API credentials:
+    ```env
+    POSTMARK_TOKEN=YOUR_POSTMARK_SERVER_API_TOKEN
+    POSTMARK_MAILER_DSN=postmark+api://YOUR_POSTMARK_SERVER_API_TOKEN@default
+    MAIL_FROM_ADDRESS=your-verified-sender@example.com
+    MAIL_FROM_NAME="${APP_NAME}"
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+    # This is the address your app will receive emails at for task creation/updates
+    # Ensure this is configured in your Postmark Inbound Stream settings
+    POSTMARK_INBOUND_EMAIL=tasks@yourdomain.com
+    ```
+    *   `POSTMARK_TOKEN`: Your Postmark Server API Token.
+    *   `POSTMARK_MAILER_DSN`: Your Postmark DSN for sending emails.
+    *   `MAIL_FROM_ADDRESS`: A verified sender signature in Postmark.
+    *   `POSTMARK_INBOUND_EMAIL`: The email address configured in your Postmark Inbound Stream to forward emails to your application's webhook.
 
-## Code of Conduct
+7.  **Set up a webhook tunnel (e.g., Ngrok):**
+    Expose your local server to the internet. For example, if your app runs on `http://localhost:8000`:
+    ```bash
+    ngrok http 8000
+    ```
+    Note the `Forwarding` URL provided by Ngrok (e.g., `https://your-ngrok-subdomain.ngrok-free.app`).
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+8.  **Configure Postmark Inbound Webhook:**
+    *   Go to your Postmark account -> Servers -> Select your server -> Message Streams.
+    *   Select your Inbound stream (or create one).
+    *   Go to the "Settings" or "Webhooks" tab for that stream.
+    *   Add a new webhook pointing to your application's inbound email endpoint: `https://your-ngrok-subdomain.ngrok-free.app/webhook/email-inbound` (replace with your actual Ngrok URL).
 
-## Security Vulnerabilities
+9.  **Start the development server:**
+    ```bash
+    php artisan serve
+    ```
+    Your application should now be running locally, typically at `http://localhost:8000`.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🧪 Running Tests
 
-## License
+To run the automated tests (PestPHP):
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+php artisan test
+```
+
+This will execute all unit and feature tests to ensure the application is working as expected.
+
+## 📊 Project Workflow
+
+```mermaid
+sequenceDiagram
+    participant U as User
+    participant P as Postmark
+    participant L as Laravel App
+
+    U->>P: Sends email (Subject: New Task)
+    P->>L: Webhook Inbound (Task Creation)
+    L-->>L: Creates Task (e.g., ID: 123) in DB
+    L->>P: Sends Confirmation Email (Subject: Re: [TASK-123] New Task)
+    P->>U: Delivers Confirmation Email
+
+    U->>P: Replies to Confirmation Email (Body: #priority high)
+    P->>L: Webhook Inbound (Task Update)
+    L-->>L: Identifies TASK-123 via subject/header
+    L-->>L: Parser executes command & updates DB
+    L->>P: (Optional) Sends Update Notification Email
+    P->>U: Delivers Update Notification
+```

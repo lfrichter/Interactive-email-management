@@ -9,7 +9,7 @@ class TaskList extends Component
 {
     public function render()
     {
-        $tasks = Task::latest()->get();
+        $tasks = Task::with('comments')->latest()->get();
         return view('livewire.task-list', ['tasks' => $tasks]);
     }
 }

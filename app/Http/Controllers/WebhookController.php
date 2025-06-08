@@ -17,6 +17,7 @@ class WebhookController extends Controller
             $subject = $request->input('Subject');
             $fromEmail = $request->input('From');
             $textBody = $request->input('TextBody') ?? '';
+            $parser = new CommandParser();
 
             // Check if this is a reply to an existing task
             if (preg_match('/Re: \[TASK-(\d+)\]/', $subject, $matches)) {
@@ -27,34 +28,41 @@ class WebhookController extends Controller
                     Log::warning("Task update attempt for non-existent task ID: {$taskId}");
                     return response()->json(['message' => 'Task not found.'], 200);
                 }
-
-                // Security: Validate sender
                 if ($task->from_email !== $fromEmail) {
                     Log::warning("Unauthorized update attempt for task ID: {$taskId} from {$fromEmail}");
                     return response()->json(['message' => 'Unauthorized.'], 200);
                 }
 
-                // Delegate to CommandParser service
-                $commandParser = new CommandParser();
-                $commandParser->parse($textBody, $task);
+                // Para respostas, processamos os comandos mas não precisamos da descrição limpa.
+                $parser->parse($textBody, $task);
                 $task->save();
 
                 Log::info("Task ID {$taskId} updated after parsing commands.");
 
             } else {
-                // This is a new task creation
-                $task = Task::create([
+                // --- LÓGICA DE CRIAÇÃO ATUALIZADA ---
+                // 1. Cria uma instância da Tarefa em memória (sem salvar) com os dados básicos.
+                $task = new Task([
                     'title' => $subject ?? 'No Subject',
-                    'description' => $textBody,
-                    'priority' => 'medium', // Default value
-                    'status' => 'open', // Default value
-                    'due_date' => null,
                     'from_email' => $fromEmail,
+                    // Valores padrão que podem ser sobrescritos pelo parser
+                    'priority' => 'medium',
+                    'status' => 'open',
                 ]);
 
-                // Send confirmation email
-                Mail::to($task->from_email)->send(new TaskCreatedConfirmation($task));
+                // 2. Chama o parser. Ele vai:
+                //    a) Modificar o objeto $task com os comandos encontrados (ex: prioridade, data).
+                //    b) Retornar o corpo do texto sem as linhas de comando.
+                $cleanedDescription = $parser->parse($textBody, $task);
 
+                // 3. Atribui a descrição limpa à tarefa.
+                $task->description = $cleanedDescription;
+
+                // 4. Salva a tarefa totalmente configurada no banco de dados.
+                $task->save();
+
+                // 5. Envia o e-mail de confirmação (nenhuma mudança aqui).
+                Mail::to($task->from_email)->send(new TaskCreatedConfirmation($task));
                 Log::info("Task ID {$task->id} created. Confirmation email sent.");
             }
 

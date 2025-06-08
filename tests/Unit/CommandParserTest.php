@@ -13,7 +13,7 @@ uses(TestCase::class); // E adicione esta linha!
 test('it correctly parses the priority command', function () {
     $parser = new CommandParser();
     $task = new Task(['priority' => 'medium']);
-    $body = "Obrigado pela criação!\n#prioridade alta";
+    $body = "Obrigado pela criação!\n#priority high";
 
     $parser->parse($body, $task);
 
@@ -24,7 +24,7 @@ test('it correctly parses the priority command', function () {
 test('it correctly parses the complete command', function () {
     $parser = new CommandParser();
     $task = new Task(['status' => 'open']);
-    $body = "#concluir"; // O comando no código estava como #complete, mas na view era #concluir. Usando #concluir.
+    $body = "#conclude"; // O comando no código estava como #complete, mas na view era #conclude. Usando #conclude.
 
     $parser->parse($body, $task);
 
@@ -51,7 +51,7 @@ test('it handles multiple commands in one email', function () {
         'due_date' => null,
     ]);
     $parser = new CommandParser(); // Added missing instantiation
-    $body = "Ok, entendido.\n#prioridade low\n#due 2025-12-31";
+    $body = "Ok, entendido.\n#priority low\n#due 2025-12-31";
 
     $parser->parse($body, $task);
 

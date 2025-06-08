@@ -53,7 +53,7 @@ class EmailProcessingTest extends TestCase
 
         // Obter a tarefa criada
         $task = Task::first();
-        
+
         // Simular o ID da mensagem diretamente, já que Mail::fake() impede o evento MessageSent
         $task->update(['postmark_message_id' => 'test-message-id-' . uniqid()]);
 
@@ -70,7 +70,7 @@ class EmailProcessingTest extends TestCase
         $updatePayload = $this->getPostmarkPayload(
             from: 'user.test@example.com', // Mesmo remetente
             subject: 'Re: [TASK-' . $task->id . '] Buying coffee for the office', // O controlador usa isso para identificar a tarefa
-            body: 'Coffee purchased! You can mark it as completed. #concluir #prioridade low',
+            body: 'Coffee purchased! You can mark it as completed. #conclude #priority low',
             headers: $headersForReply
         );
 
