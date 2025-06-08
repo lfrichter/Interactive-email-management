@@ -40,6 +40,7 @@ class TaskCreatedConfirmation extends Mailable
     {
         return new Content(
             view: 'emails.task-created-confirmation',
+            with: ['task' => $this->task], // This exposes $this->task to the event data
         );
     }
 

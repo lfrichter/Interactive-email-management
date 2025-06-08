@@ -25,13 +25,13 @@ class WebhookController extends Controller
 
                 if (!$task) {
                     Log::warning("Task update attempt for non-existent task ID: {$taskId}");
-                    return response()->json(['message' => 'Task not found.'], 404); // Or 200 to prevent Postmark retries
+                    return response()->json(['message' => 'Task not found.'], 200);
                 }
 
                 // Security: Validate sender
                 if ($task->from_email !== $fromEmail) {
                     Log::warning("Unauthorized update attempt for task ID: {$taskId} from {$fromEmail}");
-                    return response()->json(['message' => 'Unauthorized.'], 403); // Or 200
+                    return response()->json(['message' => 'Unauthorized.'], 200);
                 }
 
                 // Delegate to CommandParser service
