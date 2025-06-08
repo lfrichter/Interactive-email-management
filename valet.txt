@@ -1,0 +1,507 @@
+ valet --version
+
+Deprecated: Illuminate\Container\Container::beforeResolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/container/Container.php on line 1114
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3131    1159168   3. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Container\\Container') /Users/master/.composer/vendor/laravel/valet/cli/app.php:34
+    0.3132    1159280   4. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Container\Container::resolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/container/Container.php on line 1134
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3131    1159168   3. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Container\\Container') /Users/master/.composer/vendor/laravel/valet/cli/app.php:34
+    0.3132    1159280   4. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Container\Container::afterResolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/container/Container.php on line 1154
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3131    1159168   3. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Container\\Container') /Users/master/.composer/vendor/laravel/valet/cli/app.php:34
+    0.3132    1159280   4. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Container\Container::setInstance(): Implicitly marking parameter $container as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/container/Container.php on line 1393
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3131    1159168   3. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Container\\Container') /Users/master/.composer/vendor/laravel/valet/cli/app.php:34
+    0.3132    1159280   4. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Contracts\Container\Container::resolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/contracts/Container/Container.php on line 173
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3131    1159168   3. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Container\\Container') /Users/master/.composer/vendor/laravel/valet/cli/app.php:34
+    0.3132    1159280   4. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3162    1353456   5. include('/Users/master/.composer/vendor/illuminate/container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3162    1353472   6. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Contracts\\Container\\Container') /Users/master/.composer/vendor/illuminate/container/Container.php:17
+    0.3162    1353584   7. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/contracts/Container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Contracts\Container\Container::afterResolving(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/contracts/Container/Container.php on line 182
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3131    1159168   3. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Container\\Container') /Users/master/.composer/vendor/laravel/valet/cli/app.php:34
+    0.3132    1159280   4. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3162    1353456   5. include('/Users/master/.composer/vendor/illuminate/container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3162    1353472   6. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Contracts\\Container\\Container') /Users/master/.composer/vendor/illuminate/container/Container.php:17
+    0.3162    1353584   7. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/contracts/Container/Container.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Collection::filter(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Collection.php on line 355
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Collection::first(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Collection.php on line 371
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Collection::last(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Collection.php on line 668
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Traits\EnumeratesValues::times(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Traits/EnumeratesValues.php on line 144
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3285    2128456  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Traits\\EnumeratesValues') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3285    2128584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Traits/EnumeratesValues.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Traits\EnumeratesValues::when(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Traits/EnumeratesValues.php on line 475
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3285    2128456  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Traits\\EnumeratesValues') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3285    2128584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Traits/EnumeratesValues.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Traits\EnumeratesValues::when(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Traits/EnumeratesValues.php on line 475
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3285    2128456  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Traits\\EnumeratesValues') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3285    2128584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Traits/EnumeratesValues.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Traits\EnumeratesValues::whenEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Traits/EnumeratesValues.php on line 497
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3285    2128456  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Traits\\EnumeratesValues') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3285    2128584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Traits/EnumeratesValues.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Traits\EnumeratesValues::whenNotEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Traits/EnumeratesValues.php on line 509
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3285    2128456  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Traits\\EnumeratesValues') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3285    2128584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Traits/EnumeratesValues.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Traits\EnumeratesValues::unless(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Traits/EnumeratesValues.php on line 522
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3285    2128456  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Traits\\EnumeratesValues') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3285    2128584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Traits/EnumeratesValues.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Traits\EnumeratesValues::unlessEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Traits/EnumeratesValues.php on line 534
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3285    2128456  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Traits\\EnumeratesValues') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3285    2128584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Traits/EnumeratesValues.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Traits\EnumeratesValues::unlessNotEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Traits/EnumeratesValues.php on line 546
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3285    2128456  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Traits\\EnumeratesValues') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3285    2128584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Traits/EnumeratesValues.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::times(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 28
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::filter(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 268
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::when(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 278
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::whenEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 287
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::whenNotEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 296
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::unless(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 306
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::unlessEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 315
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::unlessNotEmpty(): Implicitly marking parameter $default as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 324
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::first(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 432
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Enumerable::last(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Enumerable.php on line 555
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3259    1957808  10. collect($value = [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop']) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3259    1957808  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Collection') /Users/master/.composer/vendor/illuminate/collections/helpers.php:15
+    0.3259    1957920  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+    0.3285    2128416  13. include('/Users/master/.composer/vendor/illuminate/collections/Collection.php') /Users/master/.composer/vendor/composer/ClassLoader.php:576
+    0.3332    2322472  14. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Enumerable') /Users/master/.composer/vendor/illuminate/collections/Collection.php:12
+    0.3332    2322584  15. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Enumerable.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Arr::first(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Arr.php on line 183
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3382    2459376  10. Illuminate\Support\Collection->filter($callback = class Closure { public $name = '{closure:{closure:Valet\\Configuration::prune():157}:158}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 158; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['$path' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3382    2459472  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Arr') /Users/master/.composer/vendor/illuminate/collections/Collection.php:358
+    0.3383    2459584  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Arr.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+
+Deprecated: Illuminate\Support\Arr::last(): Implicitly marking parameter $callback as nullable is deprecated, the explicit nullable type must be used instead in /Users/master/.composer/vendor/illuminate/collections/Arr.php on line 212
+
+Call Stack:
+    0.0019     407304   1. {main}() /Users/master/.composer/vendor/laravel/valet/cli/valet.php:0
+    0.0064     575432   2. require_once('/Users/master/.composer/vendor/laravel/valet/cli/app.php') /Users/master/.composer/vendor/laravel/valet/cli/valet.php:4
+    0.3233    1874304   3. Facade::__callStatic($method = 'onEveryRun', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/app.php:48
+    0.3248    1925448   4. Valet\Upgrader->onEveryRun() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3248    1925448   5. Valet\Upgrader->pruneMissingDirectories() /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:17
+    0.3248    1925448   6. Facade::__callStatic($method = 'prune', $parameters = []) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Upgrader.php:29
+    0.3252    1956216   7. Valet\Configuration->prune() /Users/master/.composer/vendor/laravel/valet/cli/includes/facades.php:22
+    0.3259    1957648   8. Valet\tap($value = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok'], $callback = class Closure { public $name = '{closure:Valet\\Configuration::prune():157}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 157; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['&$config' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157
+    0.3259    1957680   9. Valet\Configuration->{closure:/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:157-161}($config = ['tld' => 'test', 'loopback' => '127.0.0.1', 'paths' => [0 => '/Users/master/.config/valet/Sites', 1 => '/Users/master/projects/turno/turno-web', 2 => '/Users/master/projects/richter/costume-shop'], 'share-tool' => 'ngrok']) /Users/master/.composer/vendor/laravel/valet/cli/includes/helpers.php:150
+    0.3382    2459376  10. Illuminate\Support\Collection->filter($callback = class Closure { public $name = '{closure:{closure:Valet\\Configuration::prune():157}:158}'; public $file = '/Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php'; public $line = 158; public $this = class Valet\Configuration { public Valet\Filesystem $files = class Valet\Filesystem { ... } }; public $parameter = ['$path' => '<required>'] }) /Users/master/.composer/vendor/laravel/valet/cli/Valet/Configuration.php:158
+    0.3382    2459472  11. Composer\Autoload\ClassLoader->loadClass($class = 'Illuminate\\Support\\Arr') /Users/master/.composer/vendor/illuminate/collections/Collection.php:358
+    0.3383    2459584  12. {closure:/Users/master/.composer/vendor/composer/ClassLoader.php:575-577}($file = '/Users/master/.composer/vendor/composer/../illuminate/collections/Arr.php') /Users/master/.composer/vendor/composer/ClassLoader.php:427
+
+Laravel Valet 4.8.7

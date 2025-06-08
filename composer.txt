@@ -1,0 +1,36 @@
+
+Deprecated: Composer\Pcre\Preg::replace(): Implicitly marking parameter $count as nullable is deprecated, the explicit nullable type must be used instead in phar:///usr/local/bin/composer/vendor/composer/pcre/src/Preg.php on line 150
+
+Call Stack:
+    0.0041    3244304   1. {main}() /usr/local/bin/composer:0
+    0.0177    3581760   2. require('phar:///usr/local/bin/composer/bin/composer') /usr/local/bin/composer:29
+    0.0256    3918608   3. Composer\XdebugHandler\XdebugHandler->check() phar:///usr/local/bin/composer/bin/composer:24
+    0.0257    3918824   4. Composer\XdebugHandler\XdebugHandler->prepareRestart() phar:///usr/local/bin/composer/vendor/composer/xdebug-handler/src/XdebugHandler.php:147
+    0.0257    3919536   5. Composer\XdebugHandler\XdebugHandler->writeTmpIni($iniFiles = [0 => '/usr/local/etc/php/8.4/php.ini', 1 => '/usr/local/etc/php/8.4/conf.d/error_log.ini', 2 => '/usr/local/etc/php/8.4/conf.d/ext-opcache.ini', 3 => '/usr/local/etc/php/8.4/conf.d/php-memory-limits.ini'], $tmpDir = '/var/folders/7r/m6vpk08s1qj4hbw87bjyg3hw0000gn/T', $error = NULL) phar:///usr/local/bin/composer/vendor/composer/xdebug-handler/src/XdebugHandler.php:341
+    0.0262    3989400   6. Composer\Autoload\ClassLoader->loadClass($class = 'Composer\\Pcre\\Preg') phar:///usr/local/bin/composer/vendor/composer/xdebug-handler/src/XdebugHandler.php:383
+    0.0262    3989512   7. {closure:phar:///usr/local/bin/composer/vendor/composer/ClassLoader.php:581-583}($file = 'phar:///usr/local/bin/composer/vendor/composer/../composer/pcre/src/Preg.php') phar:///usr/local/bin/composer/vendor/composer/ClassLoader.php:433
+
+
+Deprecated: Composer\Pcre\Preg::replaceCallback(): Implicitly marking parameter $count as nullable is deprecated, the explicit nullable type must be used instead in phar:///usr/local/bin/composer/vendor/composer/pcre/src/Preg.php on line 177
+
+Call Stack:
+    0.0041    3244304   1. {main}() /usr/local/bin/composer:0
+    0.0177    3581760   2. require('phar:///usr/local/bin/composer/bin/composer') /usr/local/bin/composer:29
+    0.0256    3918608   3. Composer\XdebugHandler\XdebugHandler->check() phar:///usr/local/bin/composer/bin/composer:24
+    0.0257    3918824   4. Composer\XdebugHandler\XdebugHandler->prepareRestart() phar:///usr/local/bin/composer/vendor/composer/xdebug-handler/src/XdebugHandler.php:147
+    0.0257    3919536   5. Composer\XdebugHandler\XdebugHandler->writeTmpIni($iniFiles = [0 => '/usr/local/etc/php/8.4/php.ini', 1 => '/usr/local/etc/php/8.4/conf.d/error_log.ini', 2 => '/usr/local/etc/php/8.4/conf.d/ext-opcache.ini', 3 => '/usr/local/etc/php/8.4/conf.d/php-memory-limits.ini'], $tmpDir = '/var/folders/7r/m6vpk08s1qj4hbw87bjyg3hw0000gn/T', $error = NULL) phar:///usr/local/bin/composer/vendor/composer/xdebug-handler/src/XdebugHandler.php:341
+    0.0262    3989400   6. Composer\Autoload\ClassLoader->loadClass($class = 'Composer\\Pcre\\Preg') phar:///usr/local/bin/composer/vendor/composer/xdebug-handler/src/XdebugHandler.php:383
+    0.0262    3989512   7. {closure:phar:///usr/local/bin/composer/vendor/composer/ClassLoader.php:581-583}($file = 'phar:///usr/local/bin/composer/vendor/composer/../composer/pcre/src/Preg.php') phar:///usr/local/bin/composer/vendor/composer/ClassLoader.php:433
+
+
+Deprecated: Composer\Pcre\Preg::replaceCallbackArray(): Implicitly marking parameter $count as nullable is deprecated, the explicit nullable type must be used instead in phar:///usr/local/bin/composer/vendor/composer/pcre/src/Preg.php on line 207
+
+Call Stack:
+    0.0041    3244304   1. {main}() /usr/local/bin/composer:0
+    0.0177    3581760   2. require('phar:///usr/local/bin/composer/bin/composer') /usr/local/bin/composer:29
+    0.0256    3918608   3. Composer\XdebugHandler\XdebugHandler->check() phar:///usr/local/bin/composer/bin/composer:24
+    0.0257    3918824   4. Composer\XdebugHandler\XdebugHandler->prepareRestart() phar:///usr/local/bin/composer/vendor/composer/xdebug-handler/src/XdebugHandler.php:147
+    0.0257    3919536   5. Composer\XdebugHandler\XdebugHandler->writeTmpIni($iniFiles = [0 => '/usr/local/etc/php/8.4/php.ini', 1 => '/usr/local/etc/php/8.4/conf.d/error_log.ini', 2 => '/usr/local/etc/php/8.4/conf.d/ext-opcache.ini', 3 => '/usr/local/etc/php/8.4/conf.d/php-memory-limits.ini'], $tmpDir = '/var/folders/7r/m6vpk08s1qj4hbw87bjyg3hw0000gn/T', $error = NULL) phar:///usr/local/bin/composer/vendor/composer/xdebug-handler/src/XdebugHandler.php:341
+    0.0262    3989400   6. Composer\Autoload\ClassLoader->loadClass($class = 'Composer\\Pcre\\Preg') phar:///usr/local/bin/composer/vendor/composer/xdebug-handler/src/XdebugHandler.php:383
+    0.0262    3989512   7. {closure:phar:///usr/local/bin/composer/vendor/composer/ClassLoader.php:581-583}($file = 'phar:///usr/local/bin/composer/vendor/composer/../composer/pcre/src/Preg.php') phar:///usr/local/bin/composer/vendor/composer/ClassLoader.php:433
+

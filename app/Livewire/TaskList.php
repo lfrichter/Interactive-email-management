@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Livewire;
+
+use App\Models\Task;
+use Livewire\Component;
+
+class TaskList extends Component
+{
+    public function render()
+    {
+        $tasks = Task::latest()->get();
+        return view('livewire.task-list', ['tasks' => $tasks]);
+    }
+}
