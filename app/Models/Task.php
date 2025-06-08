@@ -12,6 +12,8 @@ class Task extends Model
         'priority',
         'due_date',
         'from_email',
+        'status',
+        'postmark_message_id',
     ];
 
 }
