@@ -2,9 +2,11 @@
 
 [![PHP Version](https://img.shields.io/badge/php-%5E8.2-777BB4?style=flat&logo=php&logoColor=white)](https://php.net)
 [![Laravel Version](https://img.shields.io/badge/laravel-%5E12.0-FF2D20?style=flat&logo=laravel&logoColor=white)](https://laravel.com)
+[![Livewire](https://img.shields.io/badge/livewire-%5E3.0-fb70a9?style=flat&logo=livewire&logoColor=white)](https://livewire.laravel.com)
 [![SQLite](https://img.shields.io/badge/sqlite-3.x-003B57?style=flat&logo=sqlite&logoColor=white)](https://www.sqlite.org/index.html)
 [![PestPHP](https://img.shields.io/badge/PestPHP-%5E3.8-F28D1A?style=flat&logo=pest&logoColor=white)](https://pestphp.com/)
 [![Postmark](https://img.shields.io/badge/Postmark-API-FFCD00?style=flat&logo=postmark&logoColor=black)](https://postmarkapp.com)
+
 
 This project is a submission for the **Postmark Challenge: Inbox Innovators**. The goal is to develop a web application that allows users to create and manage tasks entirely through their email clients. The application transforms email into a conversational interface, where tasks are created with an initial email and updated through replies in the same thread.
 
