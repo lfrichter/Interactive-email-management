@@ -10,6 +10,8 @@ This project is a submission for the **Postmark Challenge: Inbox Innovators**. T
 
 The innovative factor is the implementation of a feedback cycle ("send and interact") rather than a unidirectional data entry ("send and forget"). Users can manage the complete lifecycle of a task without leaving their inbox, making the process more fluid and integrated into their daily workflow.
 
+![Tasks Dashboard](https://i.imgur.com/mMuEdRr.png)
+
 ## ✨ Features
 
 *   **Create Tasks via Email:** Send an email to a designated address (e.g., `tasks@yourapp.com`). The subject becomes the task title, and the body becomes the description.
