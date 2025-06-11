@@ -9,7 +9,7 @@
     <p>Your task has been successfully created with the following details:</p>
 
     <ul>
-        <li><strong>ID:</strong> TAREFA-{{ $task->id }}</li>
+        <li><strong>ID:</strong> TASK-{{ $task->id }}</li>
         <li><strong>Title:</strong> {{ $task->title }}</li>
         <li><strong>Description:</strong> {{ $task->description ?? 'N/A' }}</li>
         <li><strong>Priority:</strong> {{ $task->priority }}</li>

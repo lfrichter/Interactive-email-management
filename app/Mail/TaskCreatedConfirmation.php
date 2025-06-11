@@ -29,7 +29,7 @@ class TaskCreatedConfirmation extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            subject: 'Re: [TAREFA-' . $this->task->id . '] ' . $this->task->title,
+            subject: 'Re: [TASK-' . $this->task->id . '] ' . $this->task->title,
         );
     }
 
